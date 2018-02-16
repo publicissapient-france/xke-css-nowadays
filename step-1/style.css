@@ -1,0 +1,43 @@
+.container{
+	padding: 30px
+}
+
+form {
+	border: 1px solid #DDD;
+	padding: 12px;
+	border-radius: 2px;
+	text-align: center;
+}
+
+form a {
+	text-decoration: none;
+	color: #999;
+}
+
+form a:hover{
+	text-decoration: underline;
+	color:#888;
+}
+
+button[type="submit"] {
+	display: block;
+	width: 320px;
+	max-width: 80%;
+	margin: 20px auto;
+	border-radius:2px;
+	border: 0;
+	background: #67ab49;
+	padding: 12px 8px;
+	color: white;
+}
+
+button[type="submit"]:hover{
+	cursor: pointer;
+	background: #14892c;
+}
+
+input {
+	padding: 8px 12px;
+	border-radius: 2px;
+	border: 1px solid #CCC;
+}

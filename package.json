@@ -1,0 +1,23 @@
+{
+  "name": "xke-css-nowadays",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "here -w -d ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xebia-france/xke-css-nowadays.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xebia-france/xke-css-nowadays/issues"
+  },
+  "homepage": "https://github.com/xebia-france/xke-css-nowadays#readme",
+  "dependencies": {
+    "@vivaxy/here": "3.2.2"
+  }
+}
