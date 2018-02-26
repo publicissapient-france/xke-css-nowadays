@@ -21,6 +21,27 @@ form a:hover{
 	color:#888;
 }
 
+input {
+	padding: 8px 12px;
+	border-radius: 2px;
+	border: 1px solid #CCC;
+}
+
+/*try 1*/
+button {
+	background: blue;
+}
+
+/*try 2*/
+button[type="submit"] {
+	background: blue;
+}
+
+/*last*/
+button.login-button[type="submit"] {
+	background: blue !important;
+}
+
 button[type="submit"] {
 	display: block;
 	width: 320px;
@@ -28,7 +49,7 @@ button[type="submit"] {
 	margin: 20px auto;
 	border-radius:2px;
 	border: 0;
-	background: #67ab49;
+	background: #67ab49 !important;
 	padding: 12px 8px;
 	color: white;
 }
@@ -36,10 +57,4 @@ button[type="submit"] {
 button[type="submit"]:hover{
 	cursor: pointer;
 	background: #14892c;
-}
-
-input {
-	padding: 8px 12px;
-	border-radius: 2px;
-	border: 1px solid #CCC;
 }
