@@ -34,7 +34,7 @@ button[type="submit"] {
 	margin: 20px auto;
 	border-radius:2px;
 	border: 0;
-	background: #67ab49;
+	background: #67ab49 !important;
 	padding: 12px 8px;
 	color: white;
 }
