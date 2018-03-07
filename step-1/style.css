@@ -1,3 +1,10 @@
+:root{
+	--color-green: #67ab49;
+	--color-dark-green: #14892c;
+	--color-blue: #3c7ee8;
+	--color-dark-blue: #3168bf;
+}
+
 .container{
 	padding: 30px
 }
@@ -27,6 +34,17 @@ input {
 	border: 1px solid #CCC;
 }
 
+
+/* Lot of things here */
+
+button[type="submit"]{
+	background-color: var(--color-blue) !important;
+}
+
+button[type="submit"]:hover{
+	background-color: var(--color-dark-blue) !important;
+}
+
 button[type="submit"] {
 	display: block;
 	width: 320px;
@@ -34,12 +52,12 @@ button[type="submit"] {
 	margin: 20px auto;
 	border-radius:2px;
 	border: 0;
-	background: #67ab49;
+	background: var(--color-green) !important;
 	padding: 12px 8px;
 	color: white;
 }
 
 button[type="submit"]:hover{
 	cursor: pointer;
-	background: #14892c;
+	background: var(--color-dark-green) !important;
 }
