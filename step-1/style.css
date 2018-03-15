@@ -37,7 +37,7 @@ input {
 
 /* Lot of things here */
 
-button[type="submit"]{
+button.sign-in-button[type="submit"]{
 	background-color: var(--color-blue) !important;
 }
 
