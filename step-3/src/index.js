@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import ModernNormalize from 'react-modern-normalize';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+
+ReactDOM.render((
+	<ModernNormalize>
+		<App />
+	</ModernNormalize>
+), document.getElementById('root'));
