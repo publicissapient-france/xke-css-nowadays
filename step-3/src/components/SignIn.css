@@ -1,0 +1,7 @@
+.form_submit-button.form_submit-button--login {
+	background-color: #3c7ee8;
+}
+
+.form_submit-button.form_submit-button--login:hover {
+	background-color: #3168bf;
+}
