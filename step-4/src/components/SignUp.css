@@ -3,10 +3,10 @@
 	--color-button-hover: #ff9131;
 }
 
-.form_submit-button.form_submit-button--register {
+.form_submit_button{
 	background-color: var(--color-button);
 }
 
-.form_submit-button.form_submit-button--register:hover {
+.form_submit_button:hover {
 	background-color: var(--color-button-hover);
 }

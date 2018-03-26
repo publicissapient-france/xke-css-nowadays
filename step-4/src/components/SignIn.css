@@ -3,10 +3,10 @@
 	--color-button-hover: #3168bf;
 }
 
-.form_submit-button.form_submit-button--login {
+.form_submit_button {
 	background-color: var(--color-button);
 }
 
-.form_submit-button.form_submit-button--login:hover {
+.form_submit_button:hover {
 	background-color: var(--color-button-hover);
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Link } from 'react-router-dom'
 
-import './SignUp.css'
+import styles from './SignUp.css'
 
 export default function SignUp(){
 	return (
@@ -13,7 +13,7 @@ export default function SignUp(){
 
 				<input className="form_input" type="text" placeholder="Email" />
 
-				<button className="form_submit-button form_submit-button--register" type="submit">Continue</button>
+				<button className={styles.form_submit_button} type="submit">Continue</button>
 				<Link className="form_link" to="/sign-in">Already have an account? Log in</Link>
 			</form>
 		</div>
