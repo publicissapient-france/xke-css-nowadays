@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Link } from 'react-router-dom'
 
-import styles from './SignIn.css'
+import { form_submit_button } from './SignIn.css'
 
 export default function SignIn(){
 	return (
@@ -11,7 +11,7 @@ export default function SignIn(){
 				<input className="form_input" type="text" placeholder="Email" />
 				<input className="form_input" type="password" placeholder="password" />
 
-				<button className={styles.form_submit_button} type="submit">Log in</button>
+				<button className={form_submit_button} type="submit">Log in</button>
 				<Link className="form_link" to="/">Forgot your password?</Link>
 				<Link className="form_link" to="/sign-up">Need an account? Sign up</Link>
 			</form>
