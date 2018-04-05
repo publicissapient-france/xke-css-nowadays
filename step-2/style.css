@@ -34,8 +34,7 @@
 	border: 1px solid #CCC;
 }
 
-.form_submit-button,
-.form_submit-button--login{
+.form_submit-button{
 	display: block;
 	width: 320px;
 	max-width: 80%;
@@ -47,8 +46,7 @@
 	color: white;
 }
 
-.form_submit-button:hover,
-.form_submit-button--login:hover{
+.form_submit-button:hover{
 	cursor: pointer;
 	background: var(--color-dark-green);
 }
