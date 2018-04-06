@@ -1,6 +1,13 @@
 :root{
 	--color-green: #67ab49;
 	--color-dark-green: #14892c;
+	--color-blue: #3c7ee8;
+	--color-dark-blue: #3168bf;
+	--color-orange: #ffaa32;
+	--color-dark-orange: #ff9131;
+
+	--color-button: var(--color-green);
+	--color-button-hover: var(--color-dark-green);
 }
 
 body {
@@ -45,12 +52,12 @@ body {
 	margin: 20px auto;
 	border-radius:2px;
 	border: 0;
-	background: var(--color-green);
+	background: var(--color-button);
 	padding: 12px 8px;
 	color: white;
 }
 
 .form_submit-button:hover{
 	cursor: pointer;
-	background: var(--color-dark-green);
+	background: var(--color-button-hover);
 }

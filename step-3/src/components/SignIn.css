@@ -1,4 +1,5 @@
 .form_submit-button--login{
+	/* blue */
 	--color-button: #3c7ee8;
 	--color-button-hover: #3168bf;
 }

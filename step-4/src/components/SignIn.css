@@ -1,12 +1,6 @@
-:root{
-	--color-button: #3c7ee8;
-	--color-button-hover: #3168bf;
-}
-
 .form_submit_button {
-	background-color: var(--color-button);
-}
+	composes: form_submit-button from "../index.css";
 
-.form_submit_button:hover {
-	background-color: var(--color-button-hover);
+	--color-button: var(--color-blue);
+	--color-button-hover: var(--color-dark-blue);
 }

@@ -1,4 +1,5 @@
 .form_submit-button--register{
+	/* orange */
 	--color-button: #ffaa32;
 	--color-button-hover: #ff9131;
 }
