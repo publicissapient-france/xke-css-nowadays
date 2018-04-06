@@ -1,13 +1,4 @@
 .form_submit-button--login{
-	/* blue */
-	--color-button: #3c7ee8;
-	--color-button-hover: #3168bf;
-}
-
-.form_submit-button.form_submit-button--login {
-	background-color: var(--color-button);
-}
-
-.form_submit-button.form_submit-button--login:hover {
-	background-color: var(--color-button-hover);
+	--color-button: var(--color-blue);
+	--color-button-hover: var(--color-dark-blue);
 }
