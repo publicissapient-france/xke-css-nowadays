@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "reset-step-1": "cp ./step-1/style.initial.css ./step-1/style.css",
+    "reset": "npm run reset-step-1",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "here -w -d ./"
   },
