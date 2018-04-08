@@ -21,7 +21,7 @@ export const Link = styled(RouterLink)`
 	display: block;
 	text-decoration: none;
 	color: #999;
-	margin-bottom:12px
+	margin-bottom:12px;
 
 	&:hover {
 		text-decoration: underline;
